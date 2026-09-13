@@ -1,0 +1,6 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Weather Prediction Frontend",
+  "private": true
+}

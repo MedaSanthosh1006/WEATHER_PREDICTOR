@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Weather Prediction</title>
+  <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Prediction System</h1>
+    <p class="subtitle">
+      Get weather information and AI-generated predictions
+    </p>
+    <!-- SEARCH SECTION -->
+    <div class="search-box">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter city name"
+      />
+      <button id="searchButton">
+        Search Weather
+      </button>
+    </div>
+    <!-- STATUS -->
+    <p id="statusMessage"></p>
+    <!-- WEATHER SECTION -->
+    <section id="weatherSection" class="hidden">
+      <h2 id="cityName"></h2>
+      <div id="weatherCards" class="weather-grid"></div>
+      <button id="predictButton">
+        Predict Tomorrow's Weather
+      </button>
+    </section>
+    <!-- AI PREDICTION -->
+    <section id="predictionSection" class="hidden">
+      <h2>AI Weather Prediction</h2>
+      <div id="predictionResult"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
